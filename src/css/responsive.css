@@ -1,0 +1,43 @@
+@media (max-width: 375px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  .container .nft-card {
+    max-width: 325px;
+  }
+
+  .nft-card .equilibrium-image {
+    margin-bottom: 20px;
+  }
+
+  .nft-card .nft-name {
+    margin-bottom: 15px;
+  }
+
+  .nft-card .nft-name .title {
+    font-size: 1.8rem;
+  }
+
+  .nft-card .text {
+    margin-bottom: 20px;
+  }
+
+  .nft-card .informations {
+    padding-bottom: 20px;
+  }
+
+  .nft-card .informations .price::before,
+  .nft-card .informations .time-left::before {
+    width: 18px;
+    height: 18px;
+  }
+
+  .nft-card .creator {
+    padding: 15px 0 0;
+  }
+
+  .nft-card .creator .creator-avatar {
+    width: 35px;
+  }
+}
